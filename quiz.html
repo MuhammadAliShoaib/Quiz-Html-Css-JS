@@ -16,6 +16,8 @@
         <h1>Quiz App</h1>
     </div>
 
+
+
     <div class="py-5">
         <div class="container">
             <div class="row">
@@ -27,37 +29,29 @@
                                 Question : 1/10 
                             </h5>
                         </div>
-                        <div >
-                            <!-- <h2 class="bg-light question" id="question">Write your question here:</h2> -->
-                            <input type="text" class="enter w-100 bg-light rounded"  name="" id="Question" placeholder="Write your question here:">
+                        <div class="">
+                            <h2 class="bg-light question" id="question">Write your question here:</h2>
                         </div>
-                        
                         <div class="row" id="buttons">
-                        </div>
-                        <div >
-                            <input type="text" class="fs-5" placeholder="Enter option" id="option">
-                            <button type="button"  class="btn btn-success mx-2" onclick="addOption()" >Add option</button>
-                        </div>
-                        <div class="my-2" id="correct">
-                            <input type="text" class="fs-5" placeholder="Enter correct option" id="CorrectAns">
-                            <button type="button"  class="btn btn-success mx-2" onclick="addCorrect()" >Add correct</button>
                         </div>
                         
                     </div>
                     <div class="d-flex float-end my-2">
-                        <button type="button"  class="btn btn-success" onclick="addQuestion()" >Add question</button>
-                        <button type="button"  class="btn btn-success mx-2" ><a href="/quiz.html" class="text-light">Start quiz</a></button>
-                        
+                        <button type="button"  class="btn btn-success" >Next</button>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div>
+                        <h1>Marks : <span id="marks">0</span> </h1>
+                        <h1>Percentage : <span id="percentage">00</span>%</h1>
                     </div>
                 </div>
 
             </div>
         </div>
     </div>
-
-
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
-    <script type="module" src="questions.js"></script>
+    <script type="module" src="script.js"></script>
 </body>
 
 </html>
